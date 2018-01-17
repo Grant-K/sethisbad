@@ -16,9 +16,9 @@ public class Main
        for(int i = 0; i < 1000; i++)
        {
            pen.up();
-           pen.move(1920,1080);
+           pen.move(960,540);
            pen.down();
-           pen.move(Math.random()*910, Math.random()*540);
+           pen.move(960 - Math.random()*1920, 540 - Math.random()*1080);
        }
    }
 }
